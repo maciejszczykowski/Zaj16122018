@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   <script>
+       
+     
+//  var equalColumns= function() {
+
+
+// var columns =document.getElementsByClassName('col'), height= 0;
+// //Reset the height of all the columns so thatwe can recalculate max height 
+// for(var i = 0;i < columns.length; i++) {
+// columns[i].style.height="auto";
+// }
+// //Loop through columns and find max height 
+// for(var i = 0;i < columns.length; i++) {
+// if (height < columns[i].clientHeight) {
+// height = columns[i].clientHeight;
+// }
+// }
+// //Apply the maxheight to allcolumns
+// for(var i = 0;i < columns.length; i++) {
+// columns[i].style.height=height + "px";
+// }
+// }
+// window.onload = function() {
+// equalColumns();
+//     }
+//     //Update column heights on browser resize window.addEventListener("resize",equalColumns,true);
+//     window.addEventListener("resize",equalColumns,true);
+    </script>
+
+    <style>
+        /* div{ 
+            float: left;
+            width: 25%;
+        }
+        */
+
+    #onas{
+        background-color: red
+    }
+    #zarzad{
+        background-color: blue
+    }
+    #napisz{
+        background-color: chocolate
+    }
+    #oddzialy{
+        background-color: dodgerblue
+    }
+
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center /*uzywane jak mamy np nieparzysta liczne boxow i daje ten 3ci po srodku na dole tych 2 */ 
+    }
+
+    .col {
+        /* 25% to 3+1 sa a 24,5% to 4 w rzedzie beda */
+        width: 24.5%; 
+        padding: 1%;
+        margin: 0.25%;
+        box-sizing: border-box;
+       
+    }
+    @media only screen and (max-width: 425px) {
+
+          .col {
+        width: 100%;  
+    }
+    }
+    @media only screen and (min-width: 426px) and (max-width: 767px) {
+
+    .col {
+    width: 49.5%;  
+    
+}    
+}
+
+    </style>
+    
+
+</head>
+<body>
+    <div class="flex-container">
+    <div class="col" id="onas">
+        Kaliop Poland Sp. z o.o.
+            Wpisano przez Sąd Rejonowy Gdańsk - Północ w Gdańsku,
+            VIII Wydział Gospodarczy Krajowego Rejestru Sądowego  
+        </div>
+    <div class="col" id="zarzad">
+            KRS: 0000225195
+            NIP: 8951824868
+            Kapitał zakładowy: 365 715,00 zł
+    </div>
+    <div class="col" id="napisz">
+        Skontaktuj się z nami
+        +48 59 841 37 14
+        biuro@kaliop.pl
+        Pn. - Pt. / 8:00 - 16:00
+        Skontaktuj się z nami
+        +48 59 841 37 14
+        biuro@kaliop.pl
+        Pn. - Pt. / 8:00 - 16:00
+        +48 59 841 37 14
+        biuro@kaliop.pl
+        Pn. - Pt. / 8:00 - 16:00
+    </div>
+    <div class="col" id="oddzialy">
+        Słupski Inkubator Technologiczny  
+        ul. Portowa 13B  
+        76-200 Słupsk
+    </div>
+</div>
+</body>
+</html>

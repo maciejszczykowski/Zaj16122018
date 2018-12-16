@@ -16,3 +16,12 @@ emmet obczaic, programik online ale niekoniecznie
 
 col-span. nie kumam tego. bootstrap
 
+KONTAKT (Temat PŁYNNE LAYAUTY)
+
+W JS robimy aby sprawdzal ktora kolumna jest najwieksza i wszystkie wyrownal do najwiekszej
+w komentarz dodane
+
+Potem robimy flexbox (inaczej to co wyzej zrobimy)
+z pdf kopiujemy 
+
+
