@@ -1,0 +1,18 @@
+RWD
+Zgrac wersje do cwiczen bo uzupelniamy na tym rozpakowanym
+mniejszych niz iphone 5 nie wspieramy
+
+zad 3. zrobilismy stronke na iphone 6
+teraz media query "powiekszamy" do duzego ekranu
+
+tak jak napisane w pdf, mozna w headerze zadeklarowac wielkosc ekranu ale mozna tez w stylach css
+np strona Mobile First to css niech bierze z 1 pliku i tam bedzie podzial na wielkosc ekranow
+
+najlepiej skopiowac z mniejszego css wszystko i wszystkiemu sie przyjrzec i pozmieniac
+
+suwaki na duzym robimy ewentualnie a na malym nie
+
+emmet obczaic, programik online ale niekoniecznie
+
+col-span. nie kumam tego. bootstrap
+

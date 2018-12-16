@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+}
+
+img {
+    content: url("zdjecia/rwd_low.png");
+   /* min-width: 300px; 
+    /* ustawiamy tylko min bo na wiekszych niech sie wiekszy zrobi */
+}
+
+header h1{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 5px 2px;
+}
+
+article p, aside ul li{
+    text-align: justify;
+    padding: 3px;
+    font-size: 1rem;
+    margin: 2px 5px;
+    
+}
+
+
+
+article h2 {
+
+    font-size: 19px;
+    padding: 5px 2px;
+    margin: 0px;
+    text-align: center;
+}
+
+aside h2 {
+
+    text-align: center;
+    margin: 5px 2px;
+
+}
+
+aside ul {
+    margin: 2px 0px;
+    padding-left: 30px;
+
+}
+
+article p:nth-of-type(2) {
+    max-height: 300px;
+    overflow-y: scroll;
+
+}
+
+.sm-col-span-1 {
+    width: 33%;
+}
+.sm-col-span-2 {
+    width: 66%;
+}
+.sm-col-span-3 {
+    width: 100%;
+}
+
+/* teraz piszemy dla ekranow wiekszych niz 425px, wskazujemy co sie zmienia. czyli przy fotce nie piszemy juz ze min-width jest 300px bo to juz wie z powyzszego */
+@media only screen and (min-width: 426px) {
+
+    .md-col-span-1 {
+        width: 33%;
+    }
+    .md-col-span-2 {
+        width: 66%;
+    }
+    .md-col-span-3 {
+        width: 100%;
+    }
+
+
+    img {
+        content: url("zdjecia/rwd.png");
+        width: 40%;
+     
+    }
+
+    article p {
+        font-size: 1.2rem;
+        margin: 10px 10px;
+    }
+
+    article h2 aside h2 {
+        padding: 10px
+    }
+
+    img, p:nth-of-type(2) {
+        float: right;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+        p:nth-of-type(2) {
+            width:60%;
+            padding-top: 0px;
+            margin-top: 0px;
+            
+        }
+
+
+    }
+
+    aside {
+        clear: both;
+    }
+
+/* tablety*/
+@media only screen and (min-width: 768px) {
+
+
+}

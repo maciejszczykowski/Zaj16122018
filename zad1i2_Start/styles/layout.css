@@ -1,0 +1,322 @@
+@import url(navi.css);
+
+
+/* ----------------------------------------------General-------------------------------------*/
+body {
+    width: 1024px;
+    margin: auto;
+    padding: 0;
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #F8F8F2;
+    background-color: #03274B;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.nostart {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
+
+.clear {
+    display: inline-block;
+}
+
+html[xmlns] .clear {
+    display: block;
+}
+
+* html .clear {
+    height: 1%;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.fl_left {
+    float: left;
+}
+
+.fl_right {
+    float: right;
+}
+
+.imgholder, .imgl, .imgr {
+    padding: 4px;
+    border: 1px solid #D7DBE0;
+}
+
+.imgl {
+    float: left;
+    margin: 0 15px 15px 0;
+    clear: left;
+}
+
+.imgr {
+    float: right;
+    margin: 0 0 15px 15px;
+    clear: right;
+}
+
+
+/* ----------------------------------------------Wrapper and Rows-------------------------------------*/
+
+div.wrapper, header.wrapper, section.wrapper, footer.wrapper {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+    div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6 {
+        margin: 0 0 15px 0;
+        padding: 0;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: normal;
+    }
+
+.row1 {
+    color: #5F8EC2;
+    background-color: #03274B;
+}
+
+    .row1 a {
+        color: #F8F9F3;
+        background-color: #03274B;
+    }
+
+div.name, div.slider {
+    width: 500px;
+    height: 250px;
+}
+
+div.name {
+    text-align: center;
+}
+
+    div.name h1, div.name h2 {
+        color: white;
+        text-align: center;
+    }
+
+
+div.slider {
+    padding: 0px;
+    margin: 0px;
+}
+
+.row2 {
+    color: #F8F9F3;
+    background-color: #072C53;
+    border-top: 1px solid #2B4D71;
+    border-bottom: 1px solid #2B4D71;
+    display:block;
+}
+
+.row3 {
+    color: #777777;
+    background-color: #F8F9F3;
+    border-bottom: 2px solid #03274B;
+}
+
+.row4 {
+    padding: 20px 0 10px 0;
+    border-top: 1px solid #F8F9F3;
+}
+
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+header, #container, footer, section, #copyright {
+    position: relative;
+    margin: 0 auto 0;
+    display: block;
+    width: 1010px;
+}
+/* ----------------------------------------------Header-------------------------------------*/
+
+header {
+    padding: 0px 0 30px 0;
+    height: 220px;
+}
+
+    header h1, header p, header ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        line-height: normal;
+    }
+
+    header h1 {
+        font-size: 36px;
+        font-variant: small-caps;
+    }
+
+    header p {
+        margin-top: 4px;
+    }
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+#container {
+    padding: 30px 0;
+}
+
+    #container #content {
+        display: block;
+        float: left;
+        width: 650px;
+        margin-left: 30px;
+    }
+
+    #container a {
+        color: #591F58;
+        background-color: #F8F9F3;
+    }
+
+    #container .title {
+        display: block;
+        width: 100%;
+        margin: 0 0 20px 0;
+        padding: 0 0 8px 0;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-bottom: 5px solid #8199A9;
+    }
+
+#content {
+    display: block;
+    float: left;
+    width: 630px;
+}
+
+/* ----------------------------------------------Right Column-------------------------------------*/
+
+#container #right_column {
+    display: block;
+    float: right;
+    width: 300px;
+}
+
+    #container #right_column .news {
+        font-size: 12px;
+        line-height: 130%;
+        text-align: justify;
+    }
+
+/* ----------------------------------------------Footer-------------------------------------*/
+
+#footer {
+    line-height: 2em;
+    background: url("../images/footer_bg.gif") 380px 0 repeat-y;
+}
+
+    #footer, #footer a {
+        color: #F8F8F2;
+        background-color: #03274B;
+    }
+
+        #footer h2, #footer p, #footer ul, #footer a, #footer address {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+            list-style: none;
+            font-style: normal;
+        }
+
+        #footer h2 {
+            margin: 0 0 30px 0;
+            padding: 0;
+            font-size: 22px;
+            color: #7F99A9;
+            background-color: #03274B;
+            font-size: 1em;
+            line-height: 100%;
+            font-family: Verdana;
+            color: #e9e9d7;
+            text-align: justify;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+
+        #footer p {
+            font-size: 1em;
+            font-family: Verdana;
+            color: #bab1b1;
+            text-align: justify;
+            line-height: 150%;
+            margin-bottom: 15px;
+        }
+
+        #footer .foot_contact {
+            display: block;
+            float: left;
+            width: 480px;
+            margin: 0 40px 0 0;
+            padding: 0;
+        }
+
+        #footer .footbox {
+            display: block;
+            float: right;
+            width: 170px;
+            margin: 0px 155px 0 0;
+            padding: 0;
+            font-size: 12px;
+            text-align: right;
+        }
+
+            #footer .footbox img {
+                border: 3px solid #393a79;
+                padding: 2px;
+            }
+
+/* ----------------------------------------------Copyright-------------------------------------*/
+
+#copyright {
+    padding: 15px 0;
+    border-top: 1px solid #2B4D71;
+}
+
+    #copyright p {
+        margin: 0;
+        padding: 0;
+    }
+
+    #copyright, #copyright a {
+        color: #7F99A9;
+        background-color: #03274B;
+    }

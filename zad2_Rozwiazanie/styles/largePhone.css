@@ -1,0 +1,120 @@
+﻿body {
+	width: 400px;
+	margin:0px;
+	padding:0px;
+}
+
+div.name {
+	width: 400px;
+}
+
+#container #right_column, #footer .footbox, #right_column, div.slider {
+	display: none;
+}
+
+header, #container, footer, section, #copyright, #content {
+	width: 400px;
+	margin:0px;
+	padding:0px;
+}
+
+.questionAnswer {
+	width: 300px;
+	margin:0px;
+	padding:0px;
+}
+article, #container, #content, #container #content
+{
+	width:350px;
+	padding:0px;
+	margin:0px;
+}
+
+
+article .questionAnswer h1 {
+	width: 300px;
+}
+
+div.answer, p.answerText, h1.question {
+	font-size: 0.9em;
+	line-height: 120%;
+	padding: 0px 0px 0px 0px;
+}
+
+div.answer {
+	max-height: 300px;
+	overflow-y: scroll;
+	padding-right: 5px;
+}
+
+#container .title {
+	font-size:1em;
+		width: 350px;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		font-size: 0.8em;
+		border-bottom: 2px solid #8199A9;
+	}
+
+#topnav{
+	margin:0;
+	display:block;
+	font-size:0.8em;
+	padding:0px;
+	position: relative;
+	width:350px;
+	}
+
+#topnav ul, #topnav li{
+	display:block;
+	margin:2px;
+	padding:0;
+	list-style: none;
+	float:none;
+	}
+
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{
+	display:block;
+	margin:0;
+	padding:2px 0;
+	}
+
+#topnav ul ul li a:link, #topnav ul ul li a:visited{
+	border:none;
+	}
+
+#topnav li li a:link, #topnav li li a:visited{
+	float:none;
+	margin:0;
+	padding:2px 2px;
+	font-size:1em;
+	}
+
+#topnav li li a:hover{
+	color:#5F8EC2;
+	background-color:#072C53;
+	}
+
+div.row2{
+   margin-top: 0px;
+   display:block;
+   height:60px;
+}
+
+div.name
+{
+	height:100%;
+}
+
+#footer h2, #footer p, #footer a, #footer li
+{
+	font-size:0.7em;
+}
+
+html{
+	width:400px;
+}
+
+div.foot_contact{
+	width:400px;
+}

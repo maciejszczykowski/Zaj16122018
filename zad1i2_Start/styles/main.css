@@ -1,0 +1,74 @@
+﻿#news {
+    font: normal 0.9em verdana;
+    color: black;
+}
+
+.questionAnswer {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: auto auto;
+    padding: 0px;
+    width: 650px;
+    height: 100%;
+}
+
+article .questionAnswer h1 {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: auto auto;
+    padding-bottom: 10px;
+    border-bottom-color: white;
+    width: 650px;
+    height: 100%;
+    background-color: #03274B;
+    color: white;
+    cursor: zoom-in;
+}
+
+div.answer, p.answerText {
+    font-family: verdana;
+    font-size: 12px;
+    line-height: 200%;
+    padding: 0px 5px 10px 10px;
+    text-align: justify;
+    color: black;
+}
+
+div.answer {
+    max-height: 500px;
+    overflow-y: scroll;
+    padding-right: 20px;
+}
+
+ul, ol {
+    margin-top: 0px;
+}
+
+    ol.answeriTest {
+        margin-top: -5px;
+        list-style-type: none;
+    }
+
+        ol.answeriTest li {
+            margin-left: -35px;
+        }
+
+p.questionText {
+    font-weight: bold;
+}
+
+
+.fadein {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    margin-top: -30px;
+}
+
+    .fadein img {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
